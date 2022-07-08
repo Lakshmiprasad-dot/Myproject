@@ -1,0 +1,80 @@
+<html lang="en">
+ <head>
+
+  <title>Personal Details</title>
+  <style>
+		#td1,tr{
+		
+		border:1px solid black
+		}
+		td{ text-align:center; }
+  </style>
+ </head>
+ <body>
+  <center><h1>Lakshmiprasad Pasupuleti</h1></center>
+  <hr/>
+  <div>
+	<fieldset style="width:70%;border:0px solid black;">
+		<legend style="font-size:20px;color:lime;" ><strong>Qualifictions :-</strong></legend>
+		<br/>
+		<table id="table1" style="width:700px; height:200px;">
+			<tr>
+				<td id="td1"><strong>COURSE NAME</td>
+				<td id="td1"><strong>INSTITUTE NAME</td>
+				<td id="td1"><strong>PERSENTAGE / GRADE</td></strong>
+			</tr>
+
+			<tr>
+				<td>B.Tech</td>
+				<td>Gandhiji instute of science and technology </td>
+				<td>7.24</td>
+			</tr>
+
+			<tr>
+				<td>Diploma</td>
+				<td>Gandhiji instute of science and technology </td>
+				<td>83.74</td>
+			</tr>
+
+			<tr>
+				<td>SSC</td>
+				<td>Z P H School, Konayapalem </td>
+				<td>8.3</td>
+			</tr>
+		</table>
+	</fieldset>
+  </div>
+	<hr/>
+	 <div>
+	<fieldset style="width:70%;border:0px solid black;">
+		<legend style="font-size:20px;color:lime;" ><strong>Skills:-</strong></legend>
+		<br/>
+		<table id="table1" style="width:700px; height:200px;">
+			<tr>
+				<td id="td1"><strong>S No </td>
+				<td id="td1"><strong>Skill Name</td>
+			
+			</tr>
+
+			<tr>
+				<td>1</td>
+				<td>Oracle SQL </td>
+			
+			</tr>
+
+			<tr>
+				<td>2</td>
+				<td>HTML,CSS </td>
+			
+			</tr>
+
+			<tr>
+				<td>3</td>
+				<td>Core Java</td>
+		
+			</tr>
+		</table>
+	</fieldset>
+  </div>
+ </body>
+</html>
