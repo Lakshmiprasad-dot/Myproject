@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 
+  <title>Registration</title>
+ </head>
+ <body>
+  <h2>Signup Details</h1>
+  <form action="Success.html" method="post">
+  <table>
+	<tr>
+		<td><label>User Name :</label></td>
+		<td><input type="text" required></input></td>
+	</tr>
+	<tr>	
+		<td><label>Password :</label></td>
+		<td><input type="password" required></input></td>
+	</tr>
+	<tr>	
+		<td><label>Date Of Birth :</label></td>
+		<td><input type="date"></input></td>
+	</tr>	
+	<tr>
+		<td><label>Gender :</label></td>
+		<td><input type="radio" name="gender">Male</input>
+			<input type="radio" name="gender">Female</input></td>
+	</tr>
+	<tr>
+		 <td><label>Hobbies :</label></td>
+		 <td><select>
+			<option>Music</option>
+			<option>Playing</option>
+			<option>Reading</option>
+			</select></td>
+
+   </tr>
+   <tr>
+   <td></td>
+   <td><input type="submit" value="Submit"/></td>
+   </tr>
+  </table>
+
+	
+   </form>
+ </body>
+</html>
